@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:viewmodel="clr-namespace:QLHangHoa.ViewModel"
+                    xmlns:local="clr-namespace:QLHangHoa.ResourceXAML">
+    
+    <viewmodel:MainViewModel x:Key="MainVM"></viewmodel:MainViewModel>
+    <viewmodel:LoginViewModel x:Key="LoginVM"></viewmodel:LoginViewModel>
+    <viewmodel:HistoryViewModel x:Key="HisVM"></viewmodel:HistoryViewModel>
+    <viewmodel:StatictisViewModel x:Key="StatictisVM"></viewmodel:StatictisViewModel>
+    <viewmodel:ManageAccViewModel x:Key="AccVM"></viewmodel:ManageAccViewModel>
+</ResourceDictionary>
